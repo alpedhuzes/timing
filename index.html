@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="nl-nl">
+	<head>
+		<title>This is the Title</title>
+		<meta name="description" value="This is the description" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style_simple.css" />
+		<link rel="preload" href="style_extended.css" as="style" onload="this.rel='stylesheet'" />
+		<noscript><link rel="stylesheet" href="style_extended.css" /></noscript>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div>
+			<svg class="rightfloatimg" width="100" height="100">
+				<circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+			</svg>
+			<h1>This is the main heading</h1>
+			<p>This is the first example paragraph. It is needed to test how HTML compilation really works from a browser perspective. I wonder how all these choices influence speed.</p>
+		</div>
+		<div id="contentextended"></div>
+	</body>
+</html>
